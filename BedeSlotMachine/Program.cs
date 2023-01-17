@@ -93,7 +93,7 @@ class Program
         if (depositAmount <= 0)
         {
             Console.WriteLine("Deposit amount must be greater than zero.");
-            return 0; // or any other action you want to take
+            return 0; 
         }
 
         return depositAmount;
